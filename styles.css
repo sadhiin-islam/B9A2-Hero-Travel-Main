@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "poppins", sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+nav{
+    background: #ffffff;
+    padding: 5px 25px;
+    display: flex;
+    align-items: center;
+    width: 1170px;
+    margin: auto;
+}
+nav a{
+    color: black;
+}
+.logo{
+    flex: 1;
+}
+.logo a{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+}
+.logo img{
+    margin-right: 10px;
+}
+.travel{
+    color: coral;
+}
+.logo span{
+    padding-left: 3px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none
+}
+.menu li{
+    padding: 15px 18px;
+    font-size: 18px;
+}
+.home{
+    color: coral;
+}
+.toggle{
+    font-size: 30px;
+    display: none;
+}
+li a:hover{
+    color: coral;
+}
+li .home:hover{
+    color: black;
+}
+.menuline{
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+.homeimg{
+    width: 1170px;
+    height: 500px;
+    background-image: url('Images/Group%2013%20(1)%20(1).png');
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+}
+.homebg{
+    align-items: center;
+    justify-content: center;
+}
+.homebg h1{
+    font-size: 45px;
+    padding-top: 75px;
+}
+
+.homebg p{
+    width: 650px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.inputitem{
+    width: 768px;
+    height: auto;
+    display: inline-flex;
+    border-radius: 8px;
+    justify-content: center;
+    background: rgba(255, 255, 255, .50);
+    align-items: center;
+}
+#seachicon{
+    margin-right: 10px;
+}
+
+.homepage{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    background-color: white;
+    margin-left: 10px;
+    color: black;
+    padding: 15px;
+    height: 55px;
+    border-radius: 8px;
+    width: 180px;
+}
+
+
+.inputitem input{
+    border: none;
+    border-radius: 10px;
+    width: 130px;
+}
+.inputitem button{
+    width: 485px;
+    border: none;
+    background-color: coral;
+    color: white;
+    padding: 10px;
+    width: 174px;
+    height: 52px;
+    border-radius: 10px;
+    margin: 15px;
+    font-size: 15px;
+}
+
+.detail{
+    width: 1170px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+.textimg{
+    width: 1170px;
+    height: 500px;
+    margin: auto;
+    display: inline-flex;
+    
+}
+
+.dtlslst{
+    padding-left: 15px;
+    margin-left: 15px;
+}
+.imgg{
+    padding-left: px;
+}
+.textde Button{
+    background-color: coral;
+    height: 45px;
+    width: 150px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
+.destinationsec{
+    width: 1170px;
+    margin: auto;
+    text-align: center;
+    padding: 80px;
+}
+.destinationsec h1{
+    padding-bottom: 25px;
+}
+
+
+
+
+
+
+.destinationsec p{
+    width: 800px;
+    margin: auto
+}
+
+
+.mal-ind{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+}
+.sri-north-kash{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+}
+
+.bang-band{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+}
+
+
+
+
+
+
+.maldives{
+    width: 573px;
+    height: 300px;
+    background-image: url('Images/Rectangle%205.png');
+    font-size: 25px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.Indonesia{
+    width: 573px;
+    height: 300px;
+    background-image: url('Images/Rectangle%208.png');
+    font-size: 25px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    right: 0;
+}
+
+.Srilanka{
+    width: 374px;
+    height: 286px;
+    background-image: url('Images/Rectangle%206.png');
+    font-size: 25px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+.North-America{
+    width: 474px;
+    height: 286px;
+    background-image: url('Images/Rectangle%207.png');
+    font-size: 25px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+.Kashmir{
+    width: 274px;
+    height: 286px;
+    background-image: url('Images/Rectangle%209.png');
+    font-size: 25px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.Bangladesh{
+    width: 473px;
+    height: 300px;
+    background-image: url('Images/Rectangle%2011.png');
+    font-size: 25px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+.Bandarban{
+    width: 673px;
+    height: 300px;
+    background-image: url('Images/Rectangle%2010.png');
+    font-size: 25px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+
+
+
+.why-choose{
+    width: 1170px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+.why-choose h1{
+    padding-bottom: 25px;
+}
+.why-choose p{
+    padding-bottom: 35px;
+}
+
+
+.why-choose-detail{
+    width: 1170px;
+    margin: auto;
+}
+
+.hw{
+    display: flex;
+    width: 1170px;
+    position: relative;
+}
+
+.hotel{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 20px;
+    margin-bottom: 24px;
+}
+
+.Location{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 15px;
+    position: absolute;
+    right: 0;
+}
+.guarantee{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 20px;
+    margin: auto;
+}
+
+.deals{
+    width: 1170px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+.deals h1{
+    padding-bottom: 25px;
+}
+.deals p{
+    padding-bottom: 35px;
+}
+
+
+.imgbg-one{
+    width: 1170px;
+    height: 500px;
+    margin: auto;
+    background-image: url('Images/Group%2039.png');
+    border-radius: 16px;
+    position: relative;
+}
+
+.detailsblurone{
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    filter: blur(2.5px);
+    position: absolute;
+    right: 100px;
+    top: 55.5px;
+}
+.detailsone{
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid white;
+    background: rgba(255, 255, 255, 0.80);
+    position: absolute;
+    right: 100px;
+    top: 55.5px;
+}
+
+
+
+.imgbg-two{
+    width: 1170px;
+    height: 500px;
+    margin: auto;
+    background-image: url('Images/Group%2040.png');
+    border-radius: 16px;
+    position: relative;
+}
+
+.detailsblurtwo{
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    filter: blur(2.5px);
+    position: absolute;
+    left: 100px;
+    top: 55.5px;
+}
+.detailstwo{
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid white;
+    background: rgba(255, 255, 255, 0.80);
+    position: absolute;
+    left: 100px;
+    top: 55.5px;
+}
+
+
+
+
+
+.tts{
+    font-size: 30px;
+    padding-left: 35px
+}
+
+
+#clock, #dot, #users{
+    color: coral;
+    padding: 25px 5px 15px 35px;
+}
+
+.pprange{
+    color: coral;
+    padding-top: 35px;
+    padding-left: 35px;
+    font-weight: bolde;
+}
+.tourdetail{
+    padding-bottom: 25px;
+    font-weight: 100;
+    font-family: sans-serif;
+    line-height: 30px;
+    padding-top: 25px;
+    padding-left: 35px;
+}
+.booknow{
+    position: absolute;
+    height: 45px;
+    width: 150px;
+    border: none;
+    background-color: coral;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 35px;
+    bottom: 45px;
+}
+.sap{
+    height: 50px;
+    width: 250px;
+    border: none;
+    background-color: coral;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 35px;
+    bottom: 45px;
+    margin: auto;
+    display: block;
+}
+.vedeoseemoredetails{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+
+.textimg{
+    width: 1170px;
+    height: 500px;
+    margin: auto;
+    display: inline-flex;
+    
+}
+
+.detaillist{
+    padding-left: 15px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.textseemore{
+    width: 532px;
+}
+.textseemore Button{
+    background-color: coral;
+    height: 45px;
+    width: 150px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
+.video{
+    width: 610px;
+    height: 424px;
+    padding-left: px;
+    position: absolute;
+    right: 0;
+    background-image: url(Images/Group%2040089.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video h2{
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+.video .playicon{
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 35px;
+    
+}
+.video .othericon{
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    right: 25px;
+    
+}
+
+#icon{
+    padding-right: 10px;
+}
+.playbar{
+    height: 4px;
+    width: 540px;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 37px;
+}
+.loading{
+    height: 4px;
+    width: 40px;
+    background-color: white;
+    position: absolute;
+    bottom: 37px;
+    left: 35px;
+}
+
+
+
+
+.newslatter{
+    width: 1170px;
+    display: flex;
+    position: relative;
+    margin: auto;
+}
+
+.newslatterform{
+    width: 474px;
+    height: 422px;
+    padding: 25px;
+    border: 2px solid coral;
+    border-radius: 16px;
+}
+.newslatterdetails input{
+    height: 50px;
+    width: 100%;
+    background: #F1F1F1;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 15px;
+}
+.newslatterdetails p{
+    line-height: 2.2;
+    font-family: sans-serif;
+}
+.offertext{
+    width: 324px;
+    height: 120px;
+    background-color: coral;
+    border-radius: 16px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.newslatterdetails button{
+    width: 100%;
+    height: 50px;
+    margin-top: 27px;
+    background-color: coral;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+
+
+
+.imgoffer{
+    width: 672px;
+    height: 422px;
+    background-image: url('Images/Rectangle%208%20(1).png');
+    position:absolute;
+    right: 0;
+    color: white;
+    display: flex;
+}
+.offertext{
+    transform: rotate(-20deg);
+    position: absolute;
+    bottom: 47px;
+    right: 8px;
+    align-items: center;
+    justify-items: center;
+    padding-top: 20px;
+}
+
+
+
+.bottomnav span{
+    color: coral
+}
+.bottomnav p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+center{
+    width: 100%;
+    background-color: #F1F1F1;
+    padding: 25px 80px 25px 80px;
+}
+.bottomnav{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 35px;
+}
+.bottomnav img{
+    margin-right: 10px;
+}
+
+
+
+#bottomicon{
+    color: black;
+    font-size: 25px;
+    margin: 20px 5px 5px 5px;
+}
+
+.linetwo{
+    height: 1px;
+    width: 1100px;
+    background-color: gray;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
